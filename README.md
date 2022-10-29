@@ -1,5 +1,5 @@
 # Spatio-Temporal-Semantic Data Model for Precision Agriculture - Set of Schemas
-Set of Json Schemas modelling observations from sensors or devices, collars from livestock and State Vectors of vehicles.
+Set of Json Schemas modelling observations from sensors or devices, Collars from livestock and State Vectors of vehicles.
 
 The model includes information associated with each dimension for each of the data sets:
 
@@ -9,12 +9,12 @@ The model includes information associated with each dimension for each of the da
 
 
 
-The observation dataset collects the information related to the measurements captured by sensors installed in devices. The information is modelled for different cases: (i) Observation captured by one sensor; (ii) Several observations captured by the same sensor installed in a device; (iii) Set of observations captured by several sensors installed in a single device.
+The observation dataset collects information related to the measurements captured by sensors installed in devices. The information is modelled for different cases: (i) Observation captured by sensor; (ii) Several observations captured by the a sensor installed in a device; (iii) Set of observations captured by several sensors installed in a single device.
 
-At the same time, simplified versions of each of the schemes are included in the model, to facilitate their completion and sending from sensors with more limited resources.
+At the same time, simplified versions of each of the schemes are included in the model, to facilitate data generation and delivery from sensors with limited resources.
 
-The set of collars collects information from temperature sensors, accelerometers and the detection of anomalies embedded in a collar installed on the cattle's neck. The set of schemes contemplates the possibility of filling in data associated with a single instant of time or aggregated data.
+The set of collars collects information from temperature sensors, accelerometers and the detection of anomalies. Sensores are embedded in a collar fitted on cattle's neck. The set of schemas contemplates the possibility of filling in data associated with a single instant of time or aggregated data.
 
-The set of vehicle state vectors provides information on vehicle orientation, linear velocity and battery conditions. The use of this type of modelling is especially useful for solutions that integrate the use of Unmanned Aerial Vehicles (UAVs).
+The set of vehicle state vectors provides information on vehicle orientation, linear speed and battery conditions. The use of this type of modelling is especially useful for solutions that integrate the use of Unmanned Aerial Vehicles (UAVs).
 
 
