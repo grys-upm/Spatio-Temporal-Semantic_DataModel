@@ -1,4 +1,4 @@
-# Spatio-Temporal-Semantic Data Model for Precision Agriculture - Set of Schemas
+# Spatio-Temporal Semantic Data Model for Precision Agriculture - Set of Schemas
 Set of Json Schemas modelling observations from sensors or devices, Collars from livestock and State Vectors of vehicles.
 
 The model includes information associated with each dimension for each of the data sets:
